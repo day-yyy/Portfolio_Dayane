@@ -65,9 +65,21 @@ div img {
     align-self: center;
 }
 
-#three,
+
 #four {
     width: 45%;
+    margin-top: 0.5rem;
+    background-color: #fdfaf5;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(128, 0, 32, 0.1);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#three {
+    width: 45%;
+    height: 40%;
     margin-top: 0.5rem;
     background-color: #fdfaf5;
     border-radius: 10px;
