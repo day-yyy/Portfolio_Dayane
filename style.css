@@ -15,6 +15,12 @@
   font-style: normal;
  */
 
+body {
+    background-image: url("data/ppurplepolkadots.png");
+    background-repeat: repeat-x repeat-y;
+    background-position-x: left;
+    background-size: 800px 600px;
+}
 
 html {
     font-size: max(12px, 2vw);
@@ -29,22 +35,25 @@ header {
     background-color: #291528;
     width: 100%;
     font-size: 0.5rem;
-
     text-decoration: none;
     z-index: 1;
 }
 
+
 .sobre-mim {
     text-decoration: none;
+    font-size: 30px;
 }
 
 .capacidades {
     text-decoration: none;
+    font-size: 30px;
 
 }
 
 #div {
     border: solid 0.2rem #C4A7C2;
+    background-color: #F0EFF4;
     padding-left: 120px;
     padding-right: 120px;
     padding-bottom: 60px;
@@ -52,19 +61,26 @@ header {
 
     text-align: center;
     font-size: 16px;
-    max-width: 100%;
+    text-decoration: none;
 
     margin-top: 4rem;
-
 }
 
 h3 {
     border: solid 0.1rem #C4A7C2;
+    background-color: #F0EFF4;
     margin-top: 1rem;
     padding: 0.2rem;
 
     text-align: center;
     font-size: 12px;
+    text-decoration: none;
+    width: auto;
+}
+
+#email {
+    width: 60%;
+    margin-left: 2.7rem;
 }
 
 .sobre-mim:hover {
@@ -83,8 +99,8 @@ h3 {
 }
 
 .footer:hover {
-    color: #291528;
-    background: #C4A7C2;
+    color: #C4A7C2;
+    background: #291528;
 }
 
 body {
@@ -117,14 +133,14 @@ main {
 
 footer {
     position: fixed;
-    margin-top: 1rem;
+    margin-top: 0;
     padding: 0.1rem;
     bottom: 0;
     padding-left: 0;
     font-size: 0.5rem;
 
 
-    background-color: #C4A7C2;
+    background-color: #291528;
     text-align: center;
     width: 100%;
 }
@@ -140,6 +156,7 @@ footer ol {
 
 footer a {
     text-decoration: none;
+    color: #F0EFF4;
 }
 
 @media (max-width:426px) {
